@@ -1,0 +1,3 @@
+const valorString = "123.45";
+const valorNumerico = parseInt(valorString);
+console.log(valorNumerico); // Salida: 123

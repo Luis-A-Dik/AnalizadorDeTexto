@@ -1,0 +1,85 @@
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header {
+    background-color: rgb(85, 3, 3);
+    color: rgb(49, 45, 45);
+    text-align: center;
+    container-imagen{ 
+        text-align: center;
+      }
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+li{
+    display: flex;
+    color: rgb(0, 0, 0);
+    border: 1px solid #490101;
+    padding: 10px;
+    background-color: #3f3f41;
+    width: 300px; /* Ancho del textarea en píxeles */
+    height: 50px; /* Alto del textarea en píxeles */
+    margin: 10PX 10PX;
+    padding: 5px; /* Relleno interno alrededor del texto */
+    
+
+}
+
+body {
+    
+    background-color: #111114;
+    color: rgb(253, 251, 251);
+   
+    text-align: center;
+    margin: center;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    width: 95%; /* Ancho del contenedor (por ejemplo, 80% del ancho de la ventana) */
+    height: auto; /* Altura automática del contenedor */
+  
+  
+    
+
+
+
+}
+
+textarea { 
+    background-color: #3f3f41;
+    text-align: center;
+    border: 2px solid #490101;
+    width: 700px; /* Ancho del textarea en píxeles */
+    height: 200px; /* Alto del textarea en píxeles */
+    margin: 10px; /* Márgenes alrededor del textarea */
+    padding: 5px; /* Relleno interno alrededor del texto */
+    margin-bottom: 30px
+}
+button{
+    background-color: #3f3f41;
+    text-align: center;
+    border: 2px solid #490101;
+    width: 150px; /* Ancho del textarea en píxeles */
+    height: 50px; /* Alto del textarea en píxeles */
+    padding: 5px; /* Relleno interno alrededor del texto */
+    margin-bottom: 30px;
+}
+footer {
+ 
+    color: rgb(241, 241, 241);
+    text-align: center;
+    background-color: rgb(85, 3, 3);
+}
+img {
+    background-image: url("IMAGENES/estanteria\ 2.jpeg");
+    height: 30vh;
+    border:#111114;
+}
+
+
